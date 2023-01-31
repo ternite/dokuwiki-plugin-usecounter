@@ -10,7 +10,7 @@ compatible : 2020-07-29 "Hogfather",2022-07-31 "Igor"
 depends    : 
 conflicts  : 
 similar    : 
-tags       : helper
+tags       : helper,counter
 
 downloadurl: https://github.com/ternite/dokuwiki-plugin-usecounter/archive/v0.8.zip
 bugtracker : https://github.com/ternite/dokuwiki-plugin-usecounter/issues
