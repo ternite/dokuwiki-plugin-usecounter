@@ -1,0 +1,8 @@
+# General Plugin Info do not edit
+base   usecounter
+author Thomas Schäfer
+email  thomas@hilbershome.de
+date   2023-01-30
+name   Usecounter Plugin
+desc   Provides a helper that can be used in other plugins to count the occurences of any object with an arbitrary identifier.
+url    http://www.dokuwiki.org/plugin:usecounter

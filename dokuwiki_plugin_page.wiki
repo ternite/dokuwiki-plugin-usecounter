@@ -1,0 +1,65 @@
+====== usecounter Plugin ======
+
+---- plugin ----
+description: Provides a helper that can be used in other plugins to count the occurences of any object with an arbitrary identifier.
+author     : Thomas Schäfer
+email      : thomas@hilbershome.de 
+type       : helper
+lastupdate : 2023-01-31
+compatible : 2020-07-29 "Hogfather",2022-07-31 "Igor"
+depends    : 
+conflicts  : 
+similar    : 
+tags       : helper
+
+downloadurl: https://github.com/ternite/dokuwiki-plugin-usecounter/archive/v0.8.zip
+bugtracker : https://github.com/ternite/dokuwiki-plugin-usecounter/issues
+sourcerepo : https://github.com/ternite/dokuwiki-plugin-usecounter
+donationurl: 
+
+screenshot_img : 
+----
+
+===== Installation =====
+
+Install the plugin using the [[plugin:plugin|Plugin Manager]] and the download URL above, which points to latest version of the plugin. Refer to [[:Plugins]] on how to install plugins manually.
+
+===== What's it for? =====
+
+This plugin provides a helper class that manages the amount of occurences of any given object.
+
+There are two simple mechanics that can be used.
+
+  - incUsageOf(string $id) - indicates to the helper that the object with the given identifier is used (once more). The helper internally counts the amount of uses for this identifier.
+  - amountOfUses(string $id) - returns an integer value of the amount of uses.
+
+The helper is implemented as a Singleton instance, so a particular identifier could be used accross multiple plugins. Keep this in mind when choosing an identifier.
+
+===== Syntax =====
+
+There is no wiki syntax involved.
+
+===== Configuration and Settings =====
+
+**No configuration settings available.**
+
+===== Development =====
+
+[[https://github.com/ternite/dokuwiki-plugin-usecounter|Sources]] on github.
+
+=== Change Log ===
+
+  * **2023-01-31**
+    * v0.8 (Initial release)
+
+=== Known Bugs and Issues ===
+
+See [[https://github.com/ternite/dokuwiki-plugin-usecounter/issues|issue tracker]] on github.
+
+===== FAQ =====
+
+None, yet.
+
+===== Discussion =====
+
+Start here.
